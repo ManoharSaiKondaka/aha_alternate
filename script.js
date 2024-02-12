@@ -98,11 +98,9 @@ function updateRates() {
         // Update the rate based on the selected currency
         var rateValue = rates[rateType][selectedCurrency];
         a = element.textContent.match(/\d+(?:\.\d+)?(.*)/)[1].trim();
-        console.log(a);
 
         // Update the rate text content with currency symbol and rate value
 
-        // element.textContent = "INR 699.00 / year";
         element.textContent = currencySymbols[selectedCurrency] +   " " + rateValue.toFixed(2)+" "+ a;
         element.style.fontSize = "1.2vw"; 
         element.style.minWidth = "100px";
