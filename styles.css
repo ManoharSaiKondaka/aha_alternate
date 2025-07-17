@@ -123,6 +123,10 @@ body {
     background: linear-gradient(0deg,#80a7fc -86.4%,#0c6fc0c7);   
 }
 
+.dark_blue {
+    background: linear-gradient(0deg,#80a7fc -86.4%,#0808ecc7);   
+}
+
 .select{
     color: white;
     margin-right: 65%;
